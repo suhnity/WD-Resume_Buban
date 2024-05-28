@@ -1,0 +1,53 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(172, 200, 197);
+    margin: 0%;
+    padding: 0%;
+}
+
+.resume-container {
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #99a9af;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info {
+    margin-left: 10px;
+}
+
+.personal-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #112f58;
+    padding-bottom: 5px;
+}
+
+.section p,
+.section ul {
+    margin: 0 0 10px 0;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    list-style-type: disc;
+}
